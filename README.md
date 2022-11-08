@@ -52,3 +52,20 @@ Synonyms:
 
 ## Install
 
+Clone the repository
+```
+git clone https://github.com/jorgefz/thesaurus
+```
+
+Install required dependencies
+
+```
+pip install -r thesaurus/requeriments.txt
+```
+
+Install thesaurus
+
+```
+pip install thesaurus
+```
+
