@@ -1,0 +1,3 @@
+build
+**/thesaurus.egg-info
+**/__pycache__

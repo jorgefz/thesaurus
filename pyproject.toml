@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thesaurus"
+version = "1.0"
+authors = [
+    { name = "Jorge Fernández" }
+]
+description = "Retrieves synonyms for a word from thesaurus.com"
+readme = "README.md"
+# requires_python = ">3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+thesaurus = "thesaurus.cli:cli_main"
+
+[project-urls]
+"Homepage" = "https://github.com/jorgefz/thesaurus"
